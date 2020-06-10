@@ -60,10 +60,11 @@ if __name__=="__main__":
     t2.join()
 print("done in : ",time.time()-t)
 ```
+
 <p align="center">
-  <img />
-![]((/resource/multithreading_withwait.png)
+  <img src="resource/multithreading_withwait.png">
 </p>
+
 
 We can see that `x` and `x_square` spawned next to each other at `t=0`. 
 Then `x_square` has gone ahead to do the calculation without waiting for `x`. 
@@ -90,10 +91,11 @@ if __name__=="__main__":
         t2.start()
 print("done in : ",time.time()-t)
 ```
+
 <p align="center">
-  <img />
-  ![](/resource/multithreading_withoutwait.png)
+  <img src="resource/multithreading_withoutwait.png">
 </p>
+
 
 
 The limitation of multithreading is subject to the global interpreter lock (GIL). 
