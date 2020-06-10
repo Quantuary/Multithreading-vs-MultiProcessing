@@ -62,7 +62,7 @@ print("done in : ",time.time()-t)
 ```
 <p align="center">
   <img />
-![](https://cdn-images-1.medium.com/max/1000/1*gMYaMwTU8nRDQlV0JyaWJw.png)
+![]((/resource/multithreading_withwait.png)
 </p>
 
 We can see that `x` and `x_square` spawned next to each other at `t=0`. 
@@ -92,7 +92,7 @@ print("done in : ",time.time()-t)
 ```
 <p align="center">
   <img />
-  ![](https://cdn-images-1.medium.com/max/1000/1*sxYNIZ0a9vqVJfVHmqzGfg.png)
+  ![](/resource/multithreading_withoutwait.png)
 </p>
 
 
